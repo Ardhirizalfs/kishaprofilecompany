@@ -524,7 +524,7 @@
     <div class="row justify-content-center">
       <div class="col-md-6 text-center fs-5">
         <p class="mb-1">
-          <strong>  NADIA NUR RAHMA</strong>
+          <strong>  NADIA NUR RAHMAH</strong>
         </p>
         <p class="mb-1">
           Telepon / WhatsApp : +62 851-2905-3400

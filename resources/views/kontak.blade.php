@@ -73,11 +73,11 @@
      <div class="col-12">
     <h6 class="custom-font text-brown2 fw-bold"><i>Contact Person</i> :</h6>
   </div>
-       <div class="col-6" style="margin-top: -10px;">
+       <div class="col-7" style="margin-top: -10px;">
         
       <div class="fs-5">
   <p class="mb-0">
-    <strong>NADIA NUR RAHMA</strong>
+    <strong>NADIA NUR RAHMAH</strong>
   </p>
   
   <p class="mb-0">
