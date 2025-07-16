@@ -6,6 +6,12 @@
   <title>@yield('title', 'Kisha Accounting')</title>
   <link rel="icon" href="{{ asset('favicon2.png') }}" type="image/png">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS (untuk modal) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
   <style>
     html, body {
@@ -30,6 +36,33 @@
     @yield('content')
   </main>
 
+  <!-- Modal Peringatan Mobile -->
+<div class="modal fade" id="mobileWarningModal" tabindex="-1" aria-labelledby="mobileWarningLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-warning">
+      <div class="modal-header bg-warning text-dark">
+        <h5 class="modal-title" id="mobileWarningLabel">Perhatian</h5>
+      </div>
+      <div class="modal-body">
+        Website ini belum sepenuhnya dioptimalkan untuk perangkat mobile. Beberapa tampilan mungkin tidak sesuai.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Saya Mengerti</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.innerWidth < 768) {
+      let modal = new bootstrap.Modal(document.getElementById('mobileWarningModal'));
+      modal.show();
+    }
+  });
+</script>
+
+  </body>
 <!-- Footer -->
 <!-- Footer -->
 <!-- <footer class="text-dark py-3" style="background-color: rgba(220, 220, 220, 0.8); font-size: 0.9rem;">

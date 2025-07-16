@@ -98,7 +98,7 @@
           <h5 > Lulusan S1 Akuntansi, Tahun 2006 di Universitas Pembangunan Nasional <br> Jawa Timur</h5> <br> </div>
            <div data-aos="zoom-in" data-aos-delay="3000" data-aos-duration="1800">
           <h5>   <span class="fw-bold">18 Tahun</span> berkecimpung di akuntansi, manajemen dan operasional <br>
-          di beberapa perusahaan, saat ini menjadi owner <span class="fw-bold">PT. Kisha Indonesia Buffer</span> <br>
+          di beberapa perusahaan, saat ini menjadi owner <span class="fw-bold">PT. Kisha Indonesia Buffer</span> 
           dan menjadi manajer partner di beberapa perusahaan. </h5>
 </div>
 
