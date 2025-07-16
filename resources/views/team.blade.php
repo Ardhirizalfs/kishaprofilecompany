@@ -151,7 +151,7 @@ img[style*="transform: scale"] {
 </div>
 </div>
         <div class="card-body mt-3 text-center">
-          <h5 class="card-title custom-font text-brown ">Nadia Nur Rahma</h5>
+          <h5 class="card-title custom-font text-brown ">Nadia Nur Rahmah</h5>
           <p class="card-text text-muted custom-font text-brown">Supervisor</p>
           <div>
             <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
