@@ -3,11 +3,8 @@
 @section('content')
 
 
-<!DOCTYPE html>
-<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Home</title>
 
   <!-- Bootstrap CSS -->
@@ -425,7 +422,7 @@ style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden; positi
 
 
 </body>
-</html>
+
 
 
 @endsection
