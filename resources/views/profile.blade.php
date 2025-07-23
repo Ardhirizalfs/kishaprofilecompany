@@ -17,7 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap" rel="stylesheet">
 
-
+<script>
+  AOS.init({
+    disable: false,
+    once: true,
+    duration: 800,
+  });
+</script>
    <style>
     body {
       background-image: url('{{ asset('images/backgroundfix.jpg') }}');
@@ -79,32 +85,31 @@
   <div class="container-fluid">
     <div class="row align-items-start g-0  d-flex">
       <div class="col-md-1"> </div>
-      <!-- FOTO -->
-      <div class="col-md-9 px-0 d-flex justify-content-center" >
-        <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
-          <img src="{{ asset('images/Pak OKI.jpg') }}" class="img-fluid rounded shadow mb-3" style="max-width: 250px;">
-        </div>
-      
+ <div class="row justify-content-center align-items-start">
+  <!-- FOTO PROFIL -->
+  <div class="col-12 col-md-4 text-center mb-3" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
+    <img src="{{ asset('images/Pak OKI.jpg') }}" class="img-fluid rounded shadow" style="max-width: 250px;">
+  </div>
 
-      <!-- PARAGRAF PROFIL -->
-      <div class="custom-font text-brown"  style="padding-left: 20px;">
-        <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1800">
-        
-        <h5 class="mb-0">
-         <strong> OKI SUHARSONO, SE </strong></h5> </div>
-         <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1800">
-          <h5 class="mb-0">Lahir di Surabaya, 23 Oktober 1983</h5> 
-          
-          <h5 > Lulusan S1 Akuntansi, Tahun 2006 di Universitas Pembangunan Nasional <br> Jawa Timur</h5> <br> </div>
-           <div data-aos="zoom-in" data-aos-delay="3000" data-aos-duration="1800">
-          <h5>   <span class="fw-bold">18 Tahun</span> berkecimpung di akuntansi, manajemen dan operasional <br>
-          di beberapa perusahaan, saat ini menjadi owner <span class="fw-bold">PT. Kisha Indonesia Buffer</span> 
-          dan menjadi manajer partner di beberapa perusahaan. </h5>
-</div>
-
-      </div>
-</div>
+  <!-- PARAGRAF PROFIL -->
+  <div class="col-12 col-md-8 custom-font text-brown" style="padding-left: 0;">
+    <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1800">
+      <h5 class="mb-0"><strong>OKI SUHARSONO, SE</strong></h5>
     </div>
+    <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1800">
+      <h5 class="mb-0">Lahir di Surabaya, 23 Oktober 1983</h5>
+      <h5>Lulusan S1 Akuntansi, Tahun 2006 di Universitas Pembangunan Nasional <br> Jawa Timur</h5><br>
+    </div>
+    <div data-aos="zoom-in" data-aos-delay="3000" data-aos-duration="1800">
+      <h5>
+        <span class="fw-bold">18 Tahun</span> berkecimpung di akuntansi, manajemen dan operasional <br>
+        di beberapa perusahaan, saat ini menjadi owner <span class="fw-bold">PT. Kisha Indonesia Buffer</span> 
+        dan menjadi manajer partner di beberapa perusahaan.
+      </h5>
+    </div>
+  </div>
+</div>
+
     <div class="row ">
       <div class="col-md-1"></div>
  <div class="col-md-1 text-center" style="margin-top:40px; margin-left:25px;">

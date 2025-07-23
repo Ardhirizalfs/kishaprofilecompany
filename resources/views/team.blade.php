@@ -14,6 +14,24 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
+
+  <style>
+@media (max-width: 767.98px) {
+  .responsive-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .responsive-padding-left {
+    padding-left: 200px !important;
+  }
+  .responsive-padding-right {
+    padding-right: 200px !important;
+  }
+}
+</style>
+
 <style>
 
 img[style*="transform: scale"] {
@@ -97,7 +115,7 @@ img[style*="transform: scale"] {
 </div>
 <div class="row text-center">
       <!-- Gambar 2 (di kanan & lebih bawah) -->
-      <div class="col-md-6"  style="padding-left:200px">
+      <div class="col-md-6 responsive-padding  responsive-padding-left"  >
             <div class="gradient-border rounded-circle" style="padding: 4px; display: inline-block;">
         <img src="{{ asset('images/team1/pak oki profile 2.webp') }}" 
         loading="lazy"
@@ -116,7 +134,7 @@ img[style*="transform: scale"] {
         </div>
 
 </div>
-<div class="col-md-6" style="padding-right:220px" >
+<div class="col-md-6 responsive-padding  responsive-padding-right " >
    <div class="gradient-border rounded-circle" style="padding: 4px; display: inline-block;">
         <img src="{{ asset('images/team/aldi.jpeg') }}"
         loading="lazy"
