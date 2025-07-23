@@ -54,7 +54,18 @@
     font-family: 'Georgia', serif;
   }
 
+.gallery-img {
+  width: 85%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
   </style>
+  
   <style>
   #mainCarousel .carousel-item img {
     max-height: 500px;
@@ -113,7 +124,7 @@
     <div class="row ">
       <div class="col-md-1"></div>
  <div class="col-md-1 text-center" style="margin-top:40px; margin-left:25px;">
-  <div data-aos="zoom-in" data-aos-delay="5000" data-aos-duration="1800">
+  <div data-aos="zoom-in" data-aos-delay="4000" data-aos-duration="1800">
    <img src="{{ asset('images/logo-kisha3.png') }}" alt="Logo" width="140" height="80" class="me-2">
    </div>
  </div>
@@ -129,188 +140,65 @@
 </section>
 
 <div style="height: 25vh;"></div> 
+
+@php
+  $galleryImages = [
+    'images/Dokumentasi/Picture8.jpg',
+    'images/Dokumentasi/Picture9.jpg',
+    'images/Dokumentasi/rapat.jpg',
+    'images/Dokumentasi/restoran.jpg',
+    'images/Dokumentasi/sawah.jpg',
+    'images/Dokumentasi/taman.jpg',
+    'images/Dokumentasi/timezone.jpg',
+    'images/Dokumentasi/tulangan.jpg',
+    'images/Dokumentasi/ultah irma.jpg',
+    'images/Dokumentasi/enak.jpg',
+    'images/Dokumentasi/foto 99.jpg',
+    'images/Dokumentasi/foto 100.jpg',
+    'images/Dokumentasi/foto 101.jpg',
+    'images/Dokumentasi/foto 102.jpg',
+    'images/Dokumentasi/foto 103.jpg',
+    'images/Dokumentasi/foto21.jpg',
+    'images/Dokumentasi/foto22.jpg',
+    'images/Dokumentasi/gkjelas.jpg',
+    'images/Dokumentasi/hewan.jpg',
+    'images/Dokumentasi/image20.jpg',
+    'images/Dokumentasi/jogja.jpg',
+    'images/Dokumentasi/keluarga kisha.jpg',
+    'images/Dokumentasi/komatsu.jpg',
+    'images/Dokumentasi/kueh.jpg',
+    'images/Dokumentasi/makan.jpg',
+    'images/Dokumentasi/museum.jpg',
+    'images/Dokumentasi/pantai.jpg',
+    'images/Dokumentasi/pesawat.jpg',
+    'images/Dokumentasi/Picture2.jpg',
+    'images/Dokumentasi/Picture3.jpg',
+    'images/Dokumentasi/Picture4.jpg',
+    'images/Dokumentasi/Picture5.jpg',
+    'images/Dokumentasi/Picture6.jpg',
+    'images/Dokumentasi/Picture7.jpg',
+  ];
+@endphp
+
+
 <section id="galeri" class="container py-5">
   <div class="row text-center">
-     <div data-aos="fade-down" data-aos-delay="800" data-aos-duration="1500">
-    <div class="class-md-12 custom-font text-brown2 mb-5">
+    <div data-aos="fade-down" data-aos-delay="800" data-aos-duration="1500">
+      <div class="col-md-12 custom-font text-brown2 mb-5">
         <h3 class="fw-bold">Galeri</h3>
-</div>
-    </div>
-  </div>
-  <!-- Baris pertama -->
-  <div class="row  mb-4">
-    <div class="col-md-3 ">
-      <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1400">
-        <img src="{{ asset('images/Dokumentasi/keluarga kisha.jpg') }}"  style="max-height: 171px; object-fit: cover; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1400">
-        <img src="{{ asset('images/Dokumentasi/foto21.jpg') }}" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1400">
-        <img src="{{ asset('images/Dokumentasi/foto22.jpg') }}" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1400">
-        <img src="{{ asset('images/Dokumentasi/foto 99.jpg') }}" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-  </div>
-<div style="height: 5vh;"></div> 
-  <!-- Baris kedua -->
-    <div class="row  mb-4">
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/foto 101.jpg') }}" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/foto 101.jpg') }}" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/foto 100.jpg') }}" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/foto 99.jpg') }}" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
       </div>
     </div>
   </div>
 
-  <div style="height: 5vh;"></div> 
-  <!-- Baris KETIGA -->
-    <div class="row  mb-4">
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/pesawat.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
+  <div class="row g-4 gy-md-5">
+    @foreach($galleryImages as $image)
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1400">
+        <img src="{{ asset($image) }}" class="gallery-img" alt="Galeri">
       </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/timezone.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/komatsu.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/museum.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-  </div>
-
-  <div style="height: 5vh;"></div> 
-  <!-- Baris KEEMPAT -->
-    <div class="row  mb-4">
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/taman.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/tulangan.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/rapat.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/pantai.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-  </div>
-
-
-  <div style="height: 5vh;"></div> 
-  <!-- Baris kelima -->
-    <div class="row  mb-4">
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/jogja.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/sawah.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/foto 102.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/foto 103.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-  </div>
-
-
-
-  <div style="height: 5vh;"></div> 
-  <!-- Baris KEENAM -->
-    <div class="row  mb-4">
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/kueh.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/restoran.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/hewan.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/makan.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-  </div>
-  <!--baris ke tujuh -->
-   <div class="row  mb-4">
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/gkjelas.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/restoran.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height: 171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/makan.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="1500">
-        <img src="{{ asset('images/Dokumentasi/hewan.jpg') }}" class="img-fluid rounded" style="height:250px; object-fit:cover;" style="max-height:171px; object-fit: cover;  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);" alt="Galeri">
-      </div>
-    </div>
+    @endforeach
   </div>
 </section>
+
 
 <section id="kontak">
   <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="1000">

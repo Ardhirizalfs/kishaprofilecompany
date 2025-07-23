@@ -170,7 +170,6 @@
       </div> -->
     </div>
 
-   <div class="container">
     <div class="col-md-7" data-aos="fade-right" data-aos-duration="1000">
   <h5 class="custom-font mb-4 text-brown">
     Kami perusahaan jasa konsultan manajemen yang telah berpengalaman lebih dari 15 tahun telah mendampingi banyak klien.
@@ -186,7 +185,7 @@
     Komitmen kami memberikan pelayanan profesional menerbitkan laporan keuangan yang valid dan berkualitas sesuai dengan standart akutansi Indonesia, kami tidak ragu memberikan nilai tambah lainnya terhadap klien sehingga mendorong kemajuan, sukses dan mempunyai daya saing.
   </h5> -->
 </div>
-</div>
+
    <section id="services">
   <div class="container text-center">
     <h4 class="mb-4 custom-font text-brown fw-bold" data-aos="fade-right"
