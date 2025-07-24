@@ -421,7 +421,7 @@ style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden; positi
 
             <img src="{{ asset('images/733585.png') }}" alt="WhatsApp" width="30">
           </a>
-          <a href="https://www.instagram.com/kishaams.official/" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=61559187973286" target="_blank">
       
             <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
           </a>
