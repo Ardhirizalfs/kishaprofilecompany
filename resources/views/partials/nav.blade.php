@@ -47,11 +47,19 @@
   }
 
 
+
 }
+
 
 </style>
 
-<nav class="navbar navbar-expand-lg">
+<style>
+  .bg-whites {
+    background-color:#F4E4CB;
+  }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-whites shadow sticky-top">
   <div class="container px-3" data-aos="fade-down" data-aos-duration="1000"> 
     <a class="navbar-brand d-flex align-items-center me-3" href="{{ url('/') }}">
       <img src="{{ asset('images/logo-kisha3.png') }}" alt="Logo" width="150" height="80" class="me-2">
