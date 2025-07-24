@@ -66,6 +66,9 @@
 .text-brown {
     color:#8c490e ;
   }
+.text-brown2 {
+    color:#8c490e ;
+  }
   .navbar-nav .nav-link {
     color: #8c490e !important;
   }
@@ -135,6 +138,16 @@
 
 </style>
 <style>
+
+  @media (max-width: 768px) {
+  .text-brown h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .text-brown h5 {
+    font-size: 1rem !important;
+  }
+}
 .fade-in {
   opacity: 0;
   transform: translateX(-30px);
@@ -146,6 +159,9 @@
 }
 </style>
 
+
+<body>
+  
 
 <div class="container-fluid">
   <div class="row" style="min-height: 85vh;">
@@ -167,11 +183,11 @@
     </div>
 
     <div class="col-md-7" data-aos="fade-right" data-aos-duration="1000">
-  <h5 class="custom-font mb-4 text-brown">
+  <h5 class="custom-font mb-4 text-brown2">
     Kami perusahaan jasa konsultan manajemen yang telah berpengalaman lebih dari 15 tahun telah mendampingi banyak klien.
   </h5>
 
-  <h5 class="custom-font text-brown mb-4"   data-aos="fade-right"
+  <h5 class="custom-font text-brown2 mb-4"   data-aos="fade-right"
      data-aos-delay="1000"
      data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom"> 
@@ -184,7 +200,7 @@
 
    <section id="services">
   <div class="container text-center">
-    <h4 class="mb-4 custom-font text-brown fw-bold" data-aos="fade-right"
+    <h4 class="mb-4 custom-font text-brown2 fw-bold" data-aos="fade-right"
      data-aos-delay="1500"
      data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">Layanan Kami :</h4>
@@ -196,7 +212,7 @@
      data-aos-anchor-placement="top-bottom">
         <a href="#Implementasi" class="text-decoration-none">
           <div class="oval-shape">
-            <h5 class="custom-font text-brown">Implementasi Software Akutansi Accurate Online.</h5>
+            <h5 class="custom-font text-brown2">Implementasi Software Akutansi Accurate Online.</h5>
           </div>
         </a>
       </div>
@@ -207,7 +223,7 @@
      data-aos-anchor-placement="top-bottom">
         <a href="#LaporanKeuangan" class="text-decoration-none">
           <div class="oval-shape">
-            <h5 class="custom-font text-brown">Penyusunan Laporan Keuangan.</h5>
+            <h5 class="custom-font text-brown2">Penyusunan Laporan Keuangan.</h5>
           </div>
         </a>
       </div>
@@ -218,7 +234,7 @@
      data-aos-anchor-placement="top-bottom">
         <a href="#Perpajakan" class="text-decoration-none">
           <div class="oval-shape">
-            <h5 class="custom-font text-brown">Pelaporan Perpajakan dan Tax Planning.</h5>
+            <h5 class="custom-font text-brown2">Pelaporan Perpajakan dan Tax Planning.</h5>
           </div>
         </a>
       </div>
@@ -232,7 +248,7 @@
      data-aos-anchor-placement="top-bottom">
     <a href="#SOP" class="text-decoration-none">
       <div class="oval-shape">
-        <h5 class="custom-font text-brown">
+        <h5 class="custom-font text-brown2">
           Konsultasi Bisnis, Manajemen & Pembuatan Standart Operasional dan Prosedur (S.O.P).
         </h5>
       </div>
@@ -246,7 +262,7 @@
      data-aos-anchor-placement="top-bottom">
     <a href="#SoftwareCustom" class="text-decoration-none">
       <div class="oval-shape">
-        <h5 class="custom-font text-brown">
+        <h5 class="custom-font text-brown2">
           Pembuatan Software Custom, Aplikasi Dan Website.
         </h5>
         <h5>&nbsp;</h5>
@@ -255,6 +271,12 @@
   </div>
 </div>
   </div>
+
+
+
+
+
+
 </section>
 
 
@@ -264,14 +286,14 @@
 
     <div class="custom-font col-md-8" > 
       <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-      <h4 class="fw-bold text-brown" >Accompany Your Success</h4>
-      <h5 class="text-brown">Bermodal dari kecintaan terhadap akuntansi serta pengalaman terjun langsung menyelesaikan masalah, case demi case, menciptakan benih solusi lalu memupuk nilai tambah didukung daya kreasi, menjadikan bekal kuat, meyakinkan pelaku usaha, membagi sekaligus mengembangkan karya sehingga menerbitkan visi sebagai berikut :
+      <h4 class="fw-bold text-brown2" >Accompany Your Success</h4>
+      <h5 class="text-brown2">Bermodal dari kecintaan terhadap akuntansi serta pengalaman terjun langsung menyelesaikan masalah, case demi case, menciptakan benih solusi lalu memupuk nilai tambah didukung daya kreasi, menjadikan bekal kuat, meyakinkan pelaku usaha, membagi sekaligus mengembangkan karya sehingga menerbitkan visi sebagai berikut :
 </h5>
 </div>
 <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
 <div style="height: 5vh;"></div> 
-      <h4 class="text-brown fw-bold">Visi : </h4>
-  <h5 class="custom-font mb-4 text-brown">
+      <h4 class="text-brown2 fw-bold">Visi : </h4>
+  <h5 class="custom-font mb-4 text-brown2">
   Menjadi partner usaha terpercaya bagi pelaku usaha dalam menerapkan sistem informasi akuntansi yang bisa diandalkan, membangun manajemen, mendukung sistem pengendalian internal, mendorong efisiensi, efektifitas sehingga bertumbuh, maju dan berkembang.
   </h5>
   </div>
@@ -282,7 +304,7 @@
 <div style="height: 5vh;"></div> 
 
 <!-- Carousel Section -->
- <h5 class="text-center text-brown fw-bold"> Didukung Penuh Oleh :</h5>
+ <h5 class="text-center text-brown2 fw-bold"> Didukung Penuh Oleh :</h5>
 @php
   $logos = [
         ['file' => '696f0fbf-9ac0-490e-8581-0fff84a0a746_removalai_preview.png', 'height' => '80%', 'width' => '70%'],
