@@ -731,32 +731,6 @@
 
 
 
-@if (request()->is('/'))
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function isMobile() {
-      return window.innerWidth <= 768;
-    }
-
-    if (isMobile()) {
-      window.addEventListener("scroll", function () {
-        const scrollTop = window.scrollY;
-        const windowHeight = window.innerHeight;
-        const docHeight = document.body.offsetHeight;
-
-        // Jika scroll sudah mentok bawah
-        if (scrollTop + windowHeight >= docHeight - 5) {
-          // Delay 1 detik agar terasa natural
-          setTimeout(() => {
-            window.location.href = "{{ url('/profile') }}";
-          }, 1000);
-        }
-      });
-    }
-  });
-</script>
-@endif
-
 </body>
 
 
