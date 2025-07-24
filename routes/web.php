@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/test', [\App\Http\Controllers\HomeController::class, 'test'])->name('test');
+
 Route::get('/profile', function () {
     return view('profile');
 });
