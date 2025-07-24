@@ -61,13 +61,13 @@
   <div class="col-md-12 container-fluid text-start mb-3" data-aos="fade-up" data-aos-duration="1000">
    
     <div class="custom-font text-brown2">
-    <h4 class="fw-bold "> Portofolio PT. Kisha Indonesia Buffer</h4>
+    <h4 class="fw-bold "> Portofolio :</h4>
   </div>
 </div>
 </div>
 
 <div class="row"  class="col-md-12 container-fluid text-start mb-3" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" >
-  <div class="col-6 col-md-4 order-1">
+  <div class="col-6 col-md-2 order-1">
     <div class="custom-font text-brown2">
       <ul class="mb-4 fs-5">
         <li>Jasa</li>
@@ -82,7 +82,7 @@
     </div>
   </div>
 
-  <div class="col-6 col-md-4 order-2">
+  <div class="col-6 col-md-2 order-2">
     <div class="custom-font text-brown2">
       <ul class="mb-4 fs-5">
         <li>Asosiasi</li>
@@ -119,23 +119,96 @@
 
 <section id="methodologi">
  <div class="row">
-  <div class="col-md-12 container-fluid text-center mb-3" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+  <div class="col-md-3 container-fluid  mb-3 " style=" margin-left: 120px;" style="padding-left: 100px;" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
    
     <div class="custom-font text-brown">
-    <h4 class="fw-bold "> Methodologi Pendampingan Client</h4>
+    <h4 class="fw-bold "> Methodologi</h4>
+  </div>
+</div>
+  <div class="col-md-5 container-fluid  mb-3 text-center" style="margin-right: 120px;" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+   
+    <div class="custom-font text-brown">
+    <h4 class="fw-bold "> Maintenance</h4>
   </div>
 </div>
 </div>
 
-<div class="row justify-content-center">
-  <div class="col-md-6 text-center mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
-    <div class="p-3 border border-3 rounded shadow" style="display: inline-block;">
+<div class="row">
+  <div class="col-md-6  mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+    <div class="p-3 " style="display: inline-block;">
       <img src="{{ asset('images/portofolio/Picture2.png') }}" alt="Foto Portofolio"
            class="rounded"
            style="width: 400px; height: auto;">
     </div>
   </div>
+
+  
+   <div class="col-md-6  mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+    <div class="p-3 " style="display: inline-block;">
+      <img src="{{ asset('images/portofolio/Picture4.png') }}" alt="Foto Portofolio"
+           class="rounded"
+           style="width: 400px; height: auto;">
+    </div>
+  </div>
 </div>
+
+<div class="col-md-12   mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"> 
+   <div class="custom-font text-brown">
+<h4>Dengan Pendekatan :</h4>
+<ul class="mb-4 fs-5 ">
+  <li>Review Dokumen</li>
+  <li>Interview</li>
+  <li>Focus Group Discussion</li>
+</ul>
+</div>
+
+</div>
+
+<div style="height: 20vh;"></div>
+
+<section id="kontak">
+  <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="500">
+   
+    <div class="custom-font text-brown">
+    <h5 class=" text-center custom-font text-brown mb-4">Hubungi Kami :</h5>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center fs-5">
+        <p class="mb-1">
+          <strong>  NADIA NUR RAHMAH</strong>
+        </p>
+        <p class="mb-1">
+          Telepon / WhatsApp : +62 851-2905-3400
+          </p>
+          <p class="mb-1">
+          Telepon / WhatsApp : +62 813-3090-9064
+        </p>
+        <p class="mb-3">
+          Email : kisha.marketing.official@gmail.com
+        </p>
+
+        <div class="d-flex justify-content-center gap-3">
+        
+          <a href="https://www.instagram.com/kishaams.official/" target="_blank">
+          
+            <img src="{{ asset('images/2111463.png') }}" alt="Instagram" width="30">
+          </a>
+          <a href="http://api.whatsapp.com/send/?phone=%2B6285129053400&text&type=phone_number&app_absent=0" target="_blank">
+
+            <img src="{{ asset('images/733585.png') }}" alt="WhatsApp" width="30">
+          </a>
+          <a href="https://www.instagram.com/kishaams.official/" target="_blank">
+      
+            <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
+          </a>
+      
+        </div>
+      </div>
+    </div>
+        </div>
+  </div>
+</section>
+
 
 
 
