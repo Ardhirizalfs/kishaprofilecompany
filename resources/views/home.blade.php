@@ -199,12 +199,12 @@
       </div> -->
     </div>
 
-    <div class="col-md-7" data-aos="fade-right" data-aos-duration="1000">
-  <h5 class="custom-font mb-4 text-brown2">
+    <div class="col-md-7  text-brown2 " data-aos="fade-right" data-aos-duration="1000">
+  <h5 class="custom-font mb-4">
     Kami perusahaan jasa konsultan manajemen yang telah berpengalaman lebih dari 15 tahun telah mendampingi banyak klien.
   </h5>
 
-  <h5 class="custom-font text-brown2 mb-4"   data-aos="fade-right"
+  <h5 class="custom-fontmb-4"   data-aos="fade-right"
      data-aos-delay="1000"
      data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom"> 
@@ -216,8 +216,8 @@
 </div>
 
    <section id="services">
-  <div class="container text-center">
-    <h4 class="mb-4 custom-font text-brown2 fw-bold" data-aos="fade-right"
+  <div class="container text-center text-brown2">
+    <h4 class="mb-4 custom-font  fw-bold" data-aos="fade-right"
      data-aos-delay="1500"
      data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">Layanan Kami :</h4>
@@ -228,8 +228,8 @@
         data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">
         <a href="#Implementasi" class="text-decoration-none">
-          <div class="oval-shape">
-            <h5 class="custom-font text-brown2">Implementasi Software Akutansi Accurate Online.</h5>
+          <div class="oval-shape text-brown2">
+            <h5 class="custom-font">Implementasi Software Akutansi Accurate Online.</h5>
           </div>
         </a>
       </div>
@@ -239,8 +239,8 @@
       data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">
         <a href="#LaporanKeuangan" class="text-decoration-none">
-          <div class="oval-shape">
-            <h5 class="custom-font text-brown2">Penyusunan Laporan Keuangan.</h5>
+          <div class="oval-shape text-brown2">
+            <h5 class="custom-font ">Penyusunan Laporan Keuangan.</h5>
           </div>
         </a>
       </div>
@@ -250,8 +250,8 @@
       data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom">
         <a href="#Perpajakan" class="text-decoration-none">
-          <div class="oval-shape">
-            <h5 class="custom-font text-brown2">Pelaporan Perpajakan dan Tax Planning.</h5>
+          <div class="oval-shape text-brown2">
+            <h5 class="custom-font ">Pelaporan Perpajakan dan Tax Planning.</h5>
           </div>
         </a>
       </div>
@@ -264,8 +264,8 @@
       data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom">
     <a href="#SOP" class="text-decoration-none">
-      <div class="oval-shape">
-        <h5 class="custom-font text-brown2">
+      <div class="oval-shape  text-brown2">
+        <h5 class="custom-font">
           Konsultasi Bisnis, Manajemen & Pembuatan Standart Operasional dan Prosedur (S.O.P).
         </h5>
       </div>
@@ -278,8 +278,8 @@
       data-aos-duration="1500"
      data-aos-anchor-placement="top-bottom">
     <a href="#SoftwareCustom" class="text-decoration-none">
-      <div class="oval-shape">
-        <h5 class="custom-font text-brown2">
+      <div class="oval-shape text-brown2">
+        <h5 class="custom-font ">
           Pembuatan Software Custom, Aplikasi Dan Website.
         </h5>
         <h5>&nbsp;</h5>
