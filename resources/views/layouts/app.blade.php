@@ -38,31 +38,6 @@
     @yield('content')
   </main>
 
-  <!-- Modal Peringatan Mobile -->
-<div class="modal fade" id="mobileWarningModal" tabindex="-1" aria-labelledby="mobileWarningLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content border-warning">
-      <div class="modal-header bg-warning text-dark">
-        <h5 class="modal-title" id="mobileWarningLabel">Perhatian</h5>
-      </div>
-      <div class="modal-body">
-        Website ini belum sepenuhnya dioptimalkan untuk perangkat mobile. Beberapa tampilan mungkin tidak sesuai.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Saya Mengerti</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (window.innerWidth < 768) {
-      let modal = new bootstrap.Modal(document.getElementById('mobileWarningModal'));
-      modal.show();
-    }
-  });
-</script>
 
   </body>
 <!-- Footer -->
