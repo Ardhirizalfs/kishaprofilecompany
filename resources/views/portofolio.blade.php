@@ -233,19 +233,17 @@
 
     <div class="row justify-content-center">
       <div class="col-md-6 text-center fs-5">
-        <p class="mb-1">
-          <strong>  NADIA NUR RAHMAH</strong>
-        </p>
-        <p class="mb-1">
-          Telepon / WhatsApp : +62 851-2905-3400
-          </p>
-          <p class="mb-1">
-          Telepon / WhatsApp : +62 813-3090-9064
-        </p>
-        <p class="mb-3">
-          Email : kisha.marketing.official@gmail.com
-        </p>
+     <p class="mb-1">
+  <span class="d-block d-md-inline"><strong>Telepon / WhatsApp :</strong></span>
+  <span class="d-block d-md-inline">+62 851-2905-3400</span>
+</p>
+<p class="mb-1">
+  <span class="d-block d-md-inline"><strong>Telepon / WhatsApp :</strong></span>
+  <span class="d-block d-md-inline">+62 813-3090-9064</span>
+</p>
 
+
+        
         <div class="d-flex justify-content-center gap-3">
         
           <a href="https://www.instagram.com/kishaams.official/" target="_blank">
