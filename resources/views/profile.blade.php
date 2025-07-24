@@ -141,12 +141,12 @@
     <div class="row ">
 <div class="col-md-1 d-none d-md-block"></div>
  <div class="col-md-1 text-center ms-md-4" style="margin-top:40px;">
-  <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1800">
+  <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
    <img src="{{ asset('images/logo-kisha3.png') }}" alt="Logo" width="140" height="80" class="me-2">
    </div>
  </div>
       <div class="custom-font2 text-brown col-md-7 ms-md-5" style="margin-top: 25px;">
-        <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1800">
+        <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
   <h3 class=""style="font-weight: normal;"><i>
     Mensyukuri yang telah tersuguhkan, <br>
     terus berkarya, berkembang, maju, <br>dan sukses bersama. Amin..</i>
