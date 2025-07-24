@@ -748,7 +748,7 @@
         if (scrollTop + windowHeight >= docHeight - 5) {
           // Delay 1 detik agar terasa natural
           setTimeout(() => {
-            window.location.href = "{{ url('/portofolio') }}";
+            window.location.href = "{{ url('/profile') }}";
           }, 1000);
         }
       });
