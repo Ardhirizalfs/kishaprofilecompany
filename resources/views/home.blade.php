@@ -267,7 +267,7 @@
 
   <div class="col-md-6 mb-3"
    data-aos="fade-down"
-     data-aos-delay="2000"
+     data-aos-delay="2900"
       data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">
     <a href="#SoftwareCustom" class="text-decoration-none">
