@@ -1,9 +1,9 @@
 
 
-      <!-- JS untuk load otomatis saat scroll bawah di mobile -->
+
   <script>
     function isMobile() {
-        return window.innerWidth <= 768; // Atur breakpoint sesuai kebutuhan
+        return window.innerWidth <= 768; 
     }
 
     let sectionLoaded = false;
