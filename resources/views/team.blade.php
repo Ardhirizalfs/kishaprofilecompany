@@ -104,9 +104,9 @@ img[style*="transform: scale"] {
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <body>
   
-<section id="squad" class="py-1">
+<section id="squad" class="py-1" >
   <div class="container">
-    <div class="row ">
+    <div class="row " style="padding-top: 140px;">
 <div class="col-md-2"></div>
       <!-- Gambar 1 -->
       <div class="col-md-12 text-center">

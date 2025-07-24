@@ -56,8 +56,8 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <body>
   <div class="container">
-<section id="kontak">
-  <div class="row">
+<section id="kontak" >
+  <div class="row" style="padding-top: 140px;">
   <div class="col-md-12 container-fluid text-start" data-aos="fade-up" data-aos-duration="1000">
    
     <div class="custom-font text-brown2">
