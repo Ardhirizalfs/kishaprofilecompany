@@ -301,16 +301,16 @@
     <div class="col-md-1 d-flex align-items-center justify-content-center" >
     </div>
 
-    <div class="custom-font col-md-8" > 
+    <div class="custom-font col-md-8 text-brown2" > 
       <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-      <h4 class="fw-bold text-brown2" >Accompany Your Success</h4>
-      <h5 class="text-brown2">Bermodal dari kecintaan terhadap akuntansi serta pengalaman terjun langsung menyelesaikan masalah, case demi case, menciptakan benih solusi lalu memupuk nilai tambah didukung daya kreasi, menjadikan bekal kuat, meyakinkan pelaku usaha, membagi sekaligus mengembangkan karya sehingga menerbitkan visi sebagai berikut :
+      <h4 class="fw-bold" >Accompany Your Success</h4>
+      <h5 >Bermodal dari kecintaan terhadap akuntansi serta pengalaman terjun langsung menyelesaikan masalah, case demi case, menciptakan benih solusi lalu memupuk nilai tambah didukung daya kreasi, menjadikan bekal kuat, meyakinkan pelaku usaha, membagi sekaligus mengembangkan karya sehingga menerbitkan visi sebagai berikut :
 </h5>
 </div>
 <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
 <div style="height: 5vh;"></div> 
       <h4 class="text-brown2 fw-bold">Visi : </h4>
-  <h5 class="custom-font mb-4 text-brown2">
+  <h5 class="custom-font mb-4 ">
   Menjadi partner usaha terpercaya bagi pelaku usaha dalam menerapkan sistem informasi akuntansi yang bisa diandalkan, membangun manajemen, mendukung sistem pengendalian internal, mendorong efisiensi, efektifitas sehingga bertumbuh, maju dan berkembang.
   </h5>
   </div>
