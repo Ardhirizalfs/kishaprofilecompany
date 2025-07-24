@@ -75,6 +75,9 @@
           <a class="nav-link {{ Request::is('profile#galeri') ? 'active' : '' }}" href="{{ url('/profile#galeri') }}">Galeri</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link {{ Request::is('portofolio') ? 'active' : '' }}" href="{{ url('/portofolio') }}">Portofolio</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link {{ Request::is('team') ? 'active' : '' }}" href="{{ url('/team') }}">Team Squad</a>
         </li>
         <li class="nav-item">

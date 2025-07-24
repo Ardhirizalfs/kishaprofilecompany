@@ -8,12 +8,18 @@ Route::get('/test', [\App\Http\Controllers\HomeController::class, 'test'])->name
 Route::get('/profile', function () {
     return view('profile');
 });
+
+Route::get('/portofolio', function () {
+    return view('portofolio');
+});
+
 Route::get('/team', function () {
     return view('team');
 });
 Route::get('/kontak', function () {
     return view('kontak');
 });
+
 
 
 // Tambahkan ini:

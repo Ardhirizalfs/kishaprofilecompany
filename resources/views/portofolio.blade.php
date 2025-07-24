@@ -53,66 +53,93 @@
 </style>
 
 </head>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <body>
   <div class="container">
-<section id="kontak">
+<section id="portofolio">
   <div class="row">
-  <div class="col-md-12 container-fluid text-start" data-aos="fade-up" data-aos-duration="1000">
+  <div class="col-md-12 container-fluid text-start mb-3" data-aos="fade-up" data-aos-duration="1000">
    
     <div class="custom-font text-brown2">
-    <h4 class="fw-bold fw-line"> <u>PT. Kisha Indonesia Buffer</u></h4>
-    <h5 class="mb-3">Pesona Sentosa Residence Blok E-24, <br> Ds .Modong, Kec. Tulangan, 
-           Kab. Sidoarjo, <br> Jawa Timur, 61273, Indonesia </h5>
-   
-   <div style="height: 5vh;"></div> 
-    <div class="row ">
-     <div class="col-12">
-    <h6 class="custom-font text-brown2 fw-bold"><i>Contact Person</i> :</h6>
+    <h4 class="fw-bold "> Portofolio PT. Kisha Indonesia Buffer</h4>
   </div>
-       <div class="col-12" style="margin-top: -10px;">
-        
-      <div class="fs-5">
-  <p class="mb-0">
-    <strong>NADIA NUR RAHMAH</strong>
-  </p>
-  
-  <p class="mb-0">
-    <img src="images/phone-call.png" alt="Phone" style="width: 25px; margin-right: 5px;">
-     +62 851-2905-3400
-  </p>
-  <p class="mb-0">
-    <img src="images/phone-call.png" alt="Phone" style="width: 25px; margin-right: 5px;">
-      +62 813-3090-9064
-  </p>
-  <p class="mb-1">
-    <img src="images/mail.png" alt="Email" style="width: 25px; margin-right: 5px;">
-      kisha.marketing.official@gmail.com
-<div style="margin-top: 20px;">
-        <div class="d-flex  gap-3">
-        
-          <a href="https://www.instagram.com/kishaams.official/" target="_blank">
-          
-            <img src="{{ asset('images/2111463.png') }}" alt="Instagram" width="30">
-          </a>
-          <a href="http://api.whatsapp.com/send/?phone=%2B6285129053400&text&type=phone_number&app_absent=0" target="_blank">
-
-            <img src="{{ asset('images/733585.png') }}" alt="WhatsApp" width="30">
-          </a>
-          <a href="https://www.instagram.com/kishaams.official/" target="_blank">
-      
-            <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
-          </a>
-      
-        </div>
-      </div>
 </div>
+</div>
+
+<div class="row"  class="col-md-12 container-fluid text-start mb-3" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" >
+  <div class="col-6 col-md-4 order-1">
+    <div class="custom-font text-brown2">
+      <ul class="mb-4 fs-5">
+        <li>Jasa</li>
+        <li>Lelang</li>
+        <li>Retail</li>
+        <li>Dealer</li>
+        <li>Apotik</li>
+        <li>Bengkel</li>
+        <li>Garmen</li>
+        <li>Sekolah</li>
+      </ul>
     </div>
-      </div>
   </div>
+
+  <div class="col-6 col-md-4 order-2">
+    <div class="custom-font text-brown2">
+      <ul class="mb-4 fs-5">
+        <li>Asosiasi</li>
+        <li>Yayasan</li>
+        <li>Koperasi</li>
+        <li>Pelayaran</li>
+        <li>Restaurant</li>
+        <li>Kontraktor</li>
+        <li>Dock Kapal</li>
+        <li>Forwading</li>
+      </ul>
+    </div>
   </div>
+
+  <div class="col-12 col-md-4 order-3">
+    <div class="custom-font text-brown2">
+      <ul class="mb-4 fs-5">
+        <li>Manufaktur</li>
+        <li>Developer & Real Estate</li>
+        <li>Outshorching</li>
+        <li>Media Televisi</li>
+        <li>Kursus Musik</li>
+        <li>Budidaya Perikanan</li>
+        <li>Karoseri</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 </section>
 
+
+<div style="height: 10vh;"></div>
+
+<section id="methodologi">
+ <div class="row">
+  <div class="col-md-12 container-fluid text-center mb-3" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+   
+    <div class="custom-font text-brown">
+    <h4 class="fw-bold "> Methodologi Pendampingan Client</h4>
+  </div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 text-center mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+    <div class="p-3 border border-3 rounded shadow" style="display: inline-block;">
+      <img src="{{ asset('images/portofolio/Picture2.png') }}" alt="Foto Portofolio"
+           class="rounded"
+           style="width: 400px; height: auto;">
+    </div>
+  </div>
+</div>
+
+
+
+</section>
 
 
 
@@ -202,22 +229,7 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const swiper = new Swiper('.logoSwiper', {
-      loop: true,
-      speed: 5000,
-      slidesPerView: 'auto',
-      freeMode: true,
-      freeModeMomentum: false,
-      allowTouchMove: false,
-      autoplay: {
-        delay: 0,
-        disableOnInteraction: false, 
-        pauseOnMouseEnter: false,    
-      },
-    });
-  });
-</script>
+
 
 
 

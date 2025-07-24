@@ -268,7 +268,7 @@
       <h5 class="text-brown">Bermodal dari kecintaan terhadap akuntansi serta pengalaman terjun langsung menyelesaikan masalah, case demi case, menciptakan benih solusi lalu memupuk nilai tambah didukung daya kreasi, menjadikan bekal kuat, meyakinkan pelaku usaha, membagi sekaligus mengembangkan karya sehingga menerbitkan visi sebagai berikut :
 </h5>
 </div>
-<div data-aos="fade-up" data-aos-delay="2300" data-aos-duration="1000">
+<div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
 <div style="height: 5vh;"></div> 
       <h4 class="text-brown fw-bold">Visi : </h4>
   <h5 class="custom-font mb-4 text-brown">
@@ -372,7 +372,7 @@
 
 
 <section id="LaporanKeuangan">
-  <div class="container-fluid px-3" data-aos="fade-right" data-aos-duration="1000">
+  <div class="container-fluid px-3" data-aos="fade-right" data-aos-duration="500">
 <div class="row">
     <div class="col-md-1 d-flex align-items-center justify-content-center"></div>
     <div class="custom-font col-md-9 text-brown">
@@ -397,12 +397,12 @@
   <div class="row">
     <div class="col-md-1 d-flex align-items-center justify-content-center"></div>
     <div class="custom-font col-md-9 text-brown">
-      <div data-aos="fade-right" data-aos-delay="1000"data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+      <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="500" data-aos-anchor-placement="top-bottom">
       <h4 class="fw-bold">Pelaporan Perpajakan dan Tax Planning.</h4>
       <h5>Kami siap membantu perencanaan pajak anda menghasilkan nilai pembayaran pajak yang wajar dan efisien dengan memberikan alternatif-alternatif sesuai dengan peraturan pajak yang berlaku. </h5>
       <h5>Melakukan pengkajian aspek perpajakan terhadap semua transaksi yang telah terjadi sampai dengan kondisi tahun terakhir termasuk dokumen kontrak/perjanjian antara perusahaan dengan pihak ketiga lainnya, guna mendapatkan suatu solusi/alternatif terbaik sebagai pedoman bagi manajemen untuk pelaksanaan perpajakan sesuai ketentuan peraturan perpajakan yang berlaku.</h5>
       
-      <div data-aos="fade-right" data-aos-delay="1000"data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+      <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="500" data-aos-anchor-placement="top-bottom">
       <h5 class="fw-bold">Ruang Lingkup Pendampingan Perpajakan :</h5>
 
       <ol type="a" class="mb-4 fs-5">
@@ -419,7 +419,7 @@
         <li>Memberikan konsultasi perpajakan, termasuk informasi peraturan perpajakan yang berkaitan dengan ruang lingkup dan kegiatan usaha perusahaan, mulai dari Peraturan Pemerintah, Keputusan Presiden, Surat Keputusan Menteri Keuangan sampai dengan Surat Edaran Direktorat Jenderal Pajak.</li>
       </ol>
 </div>
-<div data-aos="fade-right" data-aos-delay="1000"data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+<div data-aos="fade-right" data-aos-delay="500"data-aos-duration="500" data-aos-anchor-placement="top-bottom">
     <h5 class="fw-bold">Ruang lingkup Pendampingan Pemeriksaan Pajak :</h5>
       <ol type="a" class="mb-4 fs-5">
         <li>Mereview kelengkapan data/informasi dan/atau dokumen yang akan diserahkan kepada pemeriksa berdasarkan permintaan yang akan dilakukan oleh tim pemeriksa.</li>
@@ -440,14 +440,14 @@
       <div class="row">
         <div class="col-md-1 d-flex align-items-center justify-content-center"></div>
           <div class="custom-font col-md-9 text-brown">
-            <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+            <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="500" data-aos-anchor-placement="top-bottom">
             <h4 class="fw-bold">Pembuatan Software Custom, Aplikasi, dan Website</h4>
             <h5>Kami menyediakan layanan pengembangan perangkat lunak (software) sesuai kebutuhan spesifik bisnis 
               Anda. Mulai dari aplikasi desktop, sistem informasi, hingga website profesional. Layanan ini dirancang untuk membantu efisiensi operasional, 
               memperkuat brand Anda di dunia digital, dan memberikan solusi teknologi yang tepat guna. Dengan ruang lingkup layanan sebagai berikut :
             </h5>
             </div>
-            <div data-aos="fade-right" data-aos-delay="1000"data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+            <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="500" data-aos-anchor-placement="top-bottom">
             <ol type="1" class="mb-4 fs-5">
               <li>Software Custom (Sistem Informasi)
                <ul>
@@ -496,7 +496,7 @@
     <div class="row">
       <div class="col-md-1 d-flex align-items-center justify-content-center"></div>
           <div class="custom-font col-md-9 text-brown">
-            <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+            <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="500" data-aos-anchor-placement="top-bottom">
               <h4 class="fw-bold">Pembuatan Standart Operasional dan Prosedur (S.O.P).</h4>
               <h5>Yaitu membuat panduan tertulis berisi langkah-langkah rinci tentang bagaimana suatu pekerjaan atau tugas harus 
                 dilakukan secara konsisten dan efektif, 
@@ -504,7 +504,7 @@
                 dan menjaga standar kualitas.
               </h5> 
             </div>
-             <div data-aos="fade-right" data-aos-delay="1000"data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+             <div data-aos="fade-right" data-aos-delay="500"data-aos-duration="500" data-aos-anchor-placement="top-bottom">
 
             </div>
   </div>
@@ -512,7 +512,7 @@
 <div style="height: 7vh;"></div>
 <div></div>
 <section id="kontak">
-  <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="500">
    
     <div class="custom-font text-brown">
     <h5 class=" text-center custom-font text-brown mb-4">Hubungi Kami :</h5>
@@ -729,6 +729,33 @@
   });
 </script>
 
+
+
+@if (request()->is('/'))
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    function isMobile() {
+      return window.innerWidth <= 768;
+    }
+
+    if (isMobile()) {
+      window.addEventListener("scroll", function () {
+        const scrollTop = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const docHeight = document.body.offsetHeight;
+
+        // Jika scroll sudah mentok bawah
+        if (scrollTop + windowHeight >= docHeight - 5) {
+          // Delay 1 detik agar terasa natural
+          setTimeout(() => {
+            window.location.href = "{{ url('/portofolio') }}";
+          }, 1000);
+        }
+      });
+    }
+  });
+</script>
+@endif
 
 </body>
 

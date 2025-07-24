@@ -5,7 +5,7 @@
 
 <head>
 
-  <title>Home</title>
+  <title>Profile</title>
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -92,24 +92,26 @@
 <section id="Company profile">
   <div class="container-fluid">
     <div class="row align-items-start g-0  d-flex">
-      <div class="col-md-1"> </div>
- <div class="row justify-content-center align-items-start">
+<div class="row g-0 align-items-start">
   <!-- FOTO PROFIL -->
-  <div class="col-12 col-md-4 text-center mb-3" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
-    <img src="{{ asset('images/Pak OKI.jpg') }}" class="img-fluid rounded shadow" style="max-width: 250px;">
+  <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center mb-3 mb-md-3 pe-md-4" 
+       data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
+    <img src="{{ asset('images/Pak OKI.jpg') }}" 
+         class="img-fluid rounded shadow" 
+         style="max-width: 250px;">
   </div>
 
   <!-- PARAGRAF PROFIL -->
-  <div class="col-12 col-md-8 custom-font text-brown" style="padding-left: 0;">
-    <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1800">
-      <h5 class="mb-0"><strong>OKI SUHARSONO, SE</strong></h5>
+  <div class="col-12 col-md-6 custom-font text-brown">
+    <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
+      <h5 class="mb-0" style="font-size: 18px;"><strong>OKI SUHARSONO, SE</strong></h5>
     </div>
-    <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1800">
-      <h5 class="mb-0">Lahir di Surabaya, 23 Oktober 1983</h5>
-      <h5>Lulusan S1 Akuntansi, Tahun 2006 di Universitas Pembangunan Nasional <br> Jawa Timur</h5><br>
+    <div data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="1500">
+      <h5 class="mb-0" style="font-size: 18px;">Lahir di Surabaya, 23 Oktober 1983</h5>
+      <h5 style="font-size: 18px;">Lulusan S1 Akuntansi, Tahun 2006 di Universitas Pembangunan Nasional <br> Jawa Timur</h5><br>
     </div>
-    <div data-aos="zoom-in" data-aos-delay="3000" data-aos-duration="1800">
-      <h5>
+    <div data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1500">
+      <h5 style="font-size: 18px;">
         <span class="fw-bold">18 Tahun</span> berkecimpung di akuntansi, manajemen dan operasional <br>
         di beberapa perusahaan, saat ini menjadi owner <span class="fw-bold">PT. Kisha Indonesia Buffer</span> 
         dan menjadi manajer partner di beberapa perusahaan.
@@ -117,6 +119,7 @@
     </div>
   </div>
 </div>
+
 
     <div class="row ">
       <div class="col-md-1"></div>
@@ -127,10 +130,10 @@
  </div>
       <div class="custom-font2 text-brown col-md-7" style="margin-top: 25px; margin-left:70px;">
         <div data-aos="zoom-in" data-aos-delay="4000" data-aos-duration="1800">
-  <h2 class=""style="font-weight: normal;"><i>
+  <h3 class=""style="font-weight: normal;"><i>
     Mensyukuri yang telah tersuguhkan, <br>
     terus berkarya, berkembang, maju, <br>dan sukses bersama. Amin..</i>
-  </h2>
+  </h3>
 </div>
 </div>
   </div>
@@ -140,8 +143,7 @@
 
 @php
   $galleryImages = [
-    'images/Dokumentasi/Picture8.jpg',
-    'images/Dokumentasi/Picture9.jpg',
+  
     'images/Dokumentasi/rapat.jpg',
     'images/Dokumentasi/restoran.jpg',
     'images/Dokumentasi/sawah.jpg',
@@ -168,19 +170,14 @@
     'images/Dokumentasi/museum.jpg',
     'images/Dokumentasi/pantai.jpg',
     'images/Dokumentasi/pesawat.jpg',
-    'images/Dokumentasi/Picture2.jpg',
-    'images/Dokumentasi/Picture3.jpg',
-    'images/Dokumentasi/Picture4.jpg',
-    'images/Dokumentasi/Picture5.jpg',
-    'images/Dokumentasi/Picture6.jpg',
-    'images/Dokumentasi/Picture7.jpg',
+
   ];
 @endphp
 
 
 <section id="galeri" class="container py-5">
   <div class="row text-center">
-    <div data-aos="fade-down" data-aos-delay="800" data-aos-duration="1500">
+    <div data-aos="fade-down" data-aos-delay="500" data-aos-duration="1500">
       <div class="col-md-12 custom-font text-brown2 mb-5">
         <h3 class="fw-bold">Galeri</h3>
       </div>
@@ -189,7 +186,7 @@
 
   <div class="row g-4 gy-md-5">
     @foreach($galleryImages as $image)
-      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1400">
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
         <img src="{{ asset($image) }}" class="gallery-img" alt="Galeri">
       </div>
     @endforeach
