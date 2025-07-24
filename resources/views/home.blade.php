@@ -204,7 +204,7 @@
     Kami perusahaan jasa konsultan manajemen yang telah berpengalaman lebih dari 15 tahun telah mendampingi banyak klien.
   </h5>
 
-  <h5 class="custom-fontmb-4"   data-aos="fade-right"
+  <h5 class="custom-font mb-4"   data-aos="fade-right"
      data-aos-delay="1000"
      data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom"> 
