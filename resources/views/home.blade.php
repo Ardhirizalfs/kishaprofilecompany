@@ -599,56 +599,6 @@
   </div>
 </section>
 
-<!-- <div style="height: 20vh;"></div> 
-<section id="SOP">
-
-</section>
-<section id="SoftwareCustom">
-
-</section>
-
-<div style="height: 20vh;"></div>  -->
-
-
-
-
-
-
-
-
-<!-- <div style="height: 60vh;"></div>  -->
-<!-- About Section -->
-<!-- <section id="about" class="py-5">
-  <div class="container d-flex justify-content-center">
-  <div class="rounded shadow p-4" style="background-color: rgba(220, 220, 220, 0.8); max-width: 900px; width: 100%;">
-
-      <h2 class="text-center mb-4">About Company</h2>
-      <div class="row align-items-center">
-        
-      
-        <div class="col-md-5 text-center align-self-start mb-4 mb-md-0">
-  <img src="{{ asset('images/logo-kisha.png') }}" alt="Logo Kisha"
-       class="img-fluid"
-       style="max-height: 220px; margin-top: -20px;">
-</div>
-
-      
-        <div class="col-md-7">
-          <p>
-            Kisha Accounting adalah penyedia jasa akuntansi, keuangan, dan manajemen profesional yang siap membantu perusahaan Anda tumbuh secara berkelanjutan. Kami mengutamakan transparansi, efisiensi, dan solusi berbasis teknologi.
-          </p>
-          <p>
-            Dengan pengalaman bertahun-tahun di berbagai industri, kami siap mendampingi Anda dalam setiap tahap pertumbuhan bisnis, mulai dari pencatatan hingga strategi keuangan tingkat lanjut.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!-- Spacer -->
-<!-- <div style="height: 30vh;"></div>  -->
-
 
 <!-- Spacer -->
 <div style="height: 20vh;"></div> 
@@ -723,7 +673,7 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
@@ -773,7 +723,6 @@
     }
   });
 </script>
-
 
 
 </body>

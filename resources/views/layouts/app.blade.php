@@ -39,51 +39,7 @@
   </main>
 
 
+
+
+
   </body>
-<!-- Footer -->
-<!-- Footer -->
-<!-- <footer class="text-dark py-3" style="background-color: rgba(220, 220, 220, 0.8); font-size: 0.9rem;">
-  <div class="container">
-    <div class="row align-items-start gy-3">
-
-   
-      <div class="col-md-4">
-        <h6 class="fw-bold mb-2">Kisha Accounting</h6>
-        <p class="mb-1">Solusi akuntansi & manajemen terpercaya.</p>
-        <p class="mb-0">© {{ date('Y') }} Kisha. All rights reserved.</p>
-      </div>
-
-      <div class="col-md-4">
-        <h6 class="fw-bold mb-2">Navigasi</h6>
-        <ul class="list-unstyled mb-0">
-          <li><a href="#about" class="text-dark text-decoration-none">Tentang</a></li>
-          <li><a href="#services" class="text-dark text-decoration-none">Layanan</a></li>
-          <li><a href="#testimonials" class="text-dark text-decoration-none">Testimoni</a></li>
-          <li><a href="#contact" class="text-dark text-decoration-none">Kontak</a></li>
-        </ul>
-      </div>
-
-
-      <div class="col-md-4">
-        <h6 class="fw-bold mb-2">Kontak</h6>
-        <p class="mb-1">Email: info@kishaaccounting.com</p>
-        <p class="mb-2">Telp: +62 812-xxxx-xxxx</p>
-        <div class="d-flex gap-2">
-          <a href="https://wa.me/62xxxxxxxxxxx" target="_blank">
-            <img src="/images/733585.png" alt="WA" width="20">
-          </a>
-          <a href="https://facebook.com" target="_blank">
-            <img src="/images/733547.png" alt="FB" width="20">
-          </a>
-          <a href="https://instagram.com" target="_blank">
-            <img src="/images/2111463.png" alt="IG" width="20">
-          </a>
-          <a href="mailto:info@kishaaccounting.com">
-            <img src="/images/732200.png" alt="Email" width="20">
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</footer> -->

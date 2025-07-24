@@ -56,10 +56,6 @@
   .bg-whites {
     background-color:#F4E4CB;
   }
-  .navbar.sticky-top {
-  z-index: 2050; /* atau lebih tinggi */
-}
-
 </style>
 
 <nav class="navbar navbar-expand-lg bg-whites navbar-light" style="position: fixed; top: 0; width: 100%; z-index: 1050;">
@@ -99,3 +95,21 @@
     </div>
   </div>
 </nav>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    const navLinks = document.querySelectorAll('.navbar-collapse .nav-link');
+
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function () {
+        if (navbarCollapse.classList.contains('show')) {
+          const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+          if (bsCollapse) {
+            bsCollapse.hide();
+          }
+        }
+      });
+    });
+  });
+</script>
