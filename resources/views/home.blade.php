@@ -157,6 +157,13 @@
   .text-brown h5 {
     font-size: 1rem !important;
   }
+  .text-brown2 h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .text-brown2 h5 {
+    font-size: 1rem !important;
+  }
 }
 .fade-in {
   opacity: 0;
@@ -268,7 +275,7 @@
   <div class="col-md-6 mb-3"
    data-aos="fade-down"
      data-aos-delay="3000"
-      data-aos-duration="500"
+      data-aos-duration="1500"
      data-aos-anchor-placement="top-bottom">
     <a href="#SoftwareCustom" class="text-decoration-none">
       <div class="oval-shape">
@@ -542,28 +549,30 @@
   </div>
 </section>
 <div style="height: 7vh;"></div>
-<div></div>
+
 <section id="kontak">
-  <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="500">
+  <div class="container-fluid px-3 text-brown2" data-aos="fade-up" data-aos-duration="500">
    
-    <div class="custom-font text-brown">
-    <h5 class=" text-center custom-font text-brown mb-4">Hubungi Kami :</h5>
+    <div class="custom-font text-brown3">
+    <h5 class=" text-center custom-font text-brown3 mb-2">Hubungi Kami :</h5>
 
     <div class="row justify-content-center">
       <div class="col-md-6 text-center fs-5">
         <p class="mb-1">
           <strong>  NADIA NUR RAHMAH</strong>
         </p>
-        <p class="mb-1">
-          Telepon / WhatsApp : +62 851-2905-3400
+        <p style="margin-bottom:-1px;">
+          Telepon / WhatsApp : 
           </p>
-          <p class="mb-1">
-          Telepon / WhatsApp : +62 813-3090-9064
+          <p style="margin-bottom:-1px;">+62 851-2905-3400</p>
+          <p style="margin-bottom:-1px;">
+           +62 813-3090-9064
         </p>
         <p class="mb-3">
           Email : kisha.marketing.official@gmail.com
         </p>
 
+        
         <div class="d-flex justify-content-center gap-3">
         
           <a href="https://www.instagram.com/kishaams.official/" target="_blank">
@@ -577,6 +586,10 @@
           <a href="https://www.instagram.com/kishaams.official/" target="_blank">
       
             <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
+          </a>
+         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kisha.marketing.official@gmail.com&su=Permintaan%20Informasi%20Layanan&body=Halo%20Kisha%2C%0A%0ASaya%20tertarik%20dengan%20layanan%20yang%20ditawarkan.%20Mohon%20informasinya%20lebih%20lanjut.%0A%0ATerima%20kasih.">
+      
+            <img src="{{ asset('images/mail.png') }}" alt="Facebook" width="40">
           </a>
       
         </div>

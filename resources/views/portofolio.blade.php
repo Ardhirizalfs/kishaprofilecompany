@@ -174,44 +174,38 @@
 
 
 
-<div style="height: 10vh;"></div>
+<div style="height: 15vh;"></div>
 
 <section id="methodologi">
- <div class="row">
-  <div class="col-md-3 container-fluid  mb-3 " style=" margin-left: 120px;" style="padding-left: 100px;" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-   
-    <div class="custom-font text-brown">
-    <h4 class="fw-bold "> Methodologi</h4>
-  </div>
-</div>
-  <div class="col-md-5 container-fluid  mb-3 text-center" style="margin-right: 120px;" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-   
-    <div class="custom-font text-brown">
-    <h4 class="fw-bold "> Maintenance</h4>
-  </div>
-</div>
-</div>
 
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mb-3 text-center" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+    
+    <div class="custom-font text-brown">
+      <h4 class="fw-bold">Methodologi</h4>
+    </div>
+    
+    <img src="{{ asset('images/portofolio/Picture2.png') }}" alt="Foto Portofolio"
+         class="rounded d-block mx-auto"
+         style="width: 400px; height: auto;">
+         
+  </div>
+
+   <div class="col-md-6 mb-3 text-center" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+    
+    <div class="custom-font text-brown">
+      <h4 class="fw-bold">Maintenance</h4>
+    </div>
+    
+    <img src="{{ asset('images/portofolio/Picture4.png') }}" alt="Foto Portofolio"
+         class="rounded d-block mx-auto"
+         style="width: 400px; height: auto;">
+         
+  </div>
+</div>
 <div class="row">
-  <div class="col-md-6  mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
-    <div class="p-3 " style="display: inline-block;">
-      <img src="{{ asset('images/portofolio/Picture2.png') }}" alt="Foto Portofolio"
-           class="rounded"
-           style="width: 400px; height: auto;">
-    </div>
-  </div>
-
-  
-   <div class="col-md-6  mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
-    <div class="p-3 " style="display: inline-block;">
-      <img src="{{ asset('images/portofolio/Picture4.png') }}" alt="Foto Portofolio"
-           class="rounded"
-           style="width: 400px; height: auto;">
-    </div>
-  </div>
-</div>
-
-<div class="col-md-12   mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"> 
+<div class="col-md-10  col-12 mb-3" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" style="margin-top:30px;"> 
    <div class="custom-font text-brown">
 <h4>Dengan Pendekatan :</h4>
 <ul class="mb-4 fs-5 ">
@@ -222,26 +216,31 @@
 </div>
 
 </div>
+</div>
 
 <div style="height: 20vh;"></div>
 
 <section id="kontak">
-  <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="500">
+  <div class="container-fluid px-3 text-brown2" data-aos="fade-up" data-aos-duration="500">
    
     <div class="custom-font text-brown3">
-    <h5 class=" text-center custom-font text-brown3 mb-4">Hubungi Kami :</h5>
+    <h5 class=" text-center custom-font text-brown3 mb-2">Hubungi Kami :</h5>
 
     <div class="row justify-content-center">
       <div class="col-md-6 text-center fs-5">
-     <p class="mb-1">
-  <span class="d-block d-md-inline"><strong>Telepon / WhatsApp :</strong></span>
-  <span class="d-block d-md-inline">+62 851-2905-3400</span>
-</p>
-<p class="mb-1">
-  <span class="d-block d-md-inline"><strong>Telepon / WhatsApp :</strong></span>
-  <span class="d-block d-md-inline">+62 813-3090-9064</span>
-</p>
-
+        <p class="mb-1">
+          <strong>  NADIA NUR RAHMAH</strong>
+        </p>
+        <p style="margin-bottom:-1px;">
+          Telepon / WhatsApp : 
+          </p>
+          <p style="margin-bottom:-1px;">+62 851-2905-3400</p>
+          <p style="margin-bottom:-1px;">
+           +62 813-3090-9064
+        </p>
+        <p class="mb-3">
+          Email : kisha.marketing.official@gmail.com
+        </p>
 
         
         <div class="d-flex justify-content-center gap-3">
@@ -258,6 +257,10 @@
       
             <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
           </a>
+         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kisha.marketing.official@gmail.com&su=Permintaan%20Informasi%20Layanan&body=Halo%20Kisha%2C%0A%0ASaya%20tertarik%20dengan%20layanan%20yang%20ditawarkan.%20Mohon%20informasinya%20lebih%20lanjut.%0A%0ATerima%20kasih.">
+      
+            <img src="{{ asset('images/mail.png') }}" alt="Facebook" width="50">
+          </a>
       
         </div>
       </div>
@@ -266,8 +269,7 @@
   </div>
 </section>
 
-
-
+</div>
 
 </section>
 

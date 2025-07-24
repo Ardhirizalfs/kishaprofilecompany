@@ -103,6 +103,10 @@
       
             <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
           </a>
+               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kisha.marketing.official@gmail.com&su=Permintaan%20Informasi%20Layanan&body=Halo%20Kisha%2C%0A%0ASaya%20tertarik%20dengan%20layanan%20yang%20ditawarkan.%20Mohon%20informasinya%20lebih%20lanjut.%0A%0ATerima%20kasih.">
+      
+            <img src="{{ asset('images/mail.png') }}" alt="Facebook" width="40">
+          </a>
       
         </div>
       </div>

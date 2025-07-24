@@ -389,26 +389,28 @@ style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden; positi
 </section>
 
 <section id="kontak">
-  <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container-fluid px-3 text-brown2" data-aos="fade-up" data-aos-duration="500">
    
     <div class="custom-font text-brown3">
-    <h5 class=" text-center custom-font text-brown3 mb-4">Hubungi Kami :</h5>
+    <h5 class=" text-center custom-font text-brown3 mb-2">Hubungi Kami :</h5>
 
     <div class="row justify-content-center">
       <div class="col-md-6 text-center fs-5">
         <p class="mb-1">
           <strong>  NADIA NUR RAHMAH</strong>
         </p>
-        <p class="mb-1">
-          Telepon / WhatsApp : +62 851-2905-3400
+        <p style="margin-bottom:-1px;">
+          Telepon / WhatsApp : 
           </p>
-          <p class="mb-1">
-          Telepon / WhatsApp : +62 813-3090-9064
+          <p style="margin-bottom:-1px;">+62 851-2905-3400</p>
+          <p style="margin-bottom:-1px;">
+           +62 813-3090-9064
         </p>
         <p class="mb-3">
           Email : kisha.marketing.official@gmail.com
         </p>
 
+        
         <div class="d-flex justify-content-center gap-3">
         
           <a href="https://www.instagram.com/kishaams.official/" target="_blank">
@@ -423,6 +425,10 @@ style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden; positi
       
             <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
           </a>
+         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kisha.marketing.official@gmail.com&su=Permintaan%20Informasi%20Layanan&body=Halo%20Kisha%2C%0A%0ASaya%20tertarik%20dengan%20layanan%20yang%20ditawarkan.%20Mohon%20informasinya%20lebih%20lanjut.%0A%0ATerima%20kasih.">
+      
+            <img src="{{ asset('images/mail.png') }}" alt="Facebook" width="40">
+          </a>
       
         </div>
       </div>
@@ -430,6 +436,7 @@ style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden; positi
         </div>
   </div>
 </section>
+<div style="height: 20vh;"></div> 
 
 <a href="https://wa.me/+6285129053400" target="_blank" class="wa-float">
   <img src="/images/wa3.png" alt="Chat via WhatsApp" width="50" height="50">
