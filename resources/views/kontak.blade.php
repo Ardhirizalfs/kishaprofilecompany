@@ -13,6 +13,34 @@
 
 
    <style>
+
+      @media (max-width: 768px) {
+  ol.fs-5 {
+    font-size: 1rem !important;
+  }
+  div.fs-5
+  {
+    font-size: 1rem !important;
+  }
+}
+
+
+  @media (max-width: 768px) {
+  .text-brown h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .text-brown h5 {
+    font-size: 1rem !important;
+  }
+  .text-brown2 h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .text-brown2 h5 {
+    font-size: 1rem !important;
+  }
+}
     body {
       background-image: url('{{ asset('images/backgroundfix.jpg') }}');
       background-size: cover;
@@ -200,7 +228,11 @@
     border-radius: 70%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   }
+
+  
+  
 </style>
+
 
 
 
