@@ -186,13 +186,13 @@
   <div class="container text-center">
     <h4 class="mb-4 custom-font text-brown fw-bold" data-aos="fade-right"
      data-aos-delay="1500"
-     data-aos-duration="1500"
+     data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">Layanan Kami :</h4>
 
     <div class="row mb-1">
       <div class="col-md-4 mb-3" data-aos="fade-right"
-     data-aos-delay="2500"
-        data-aos-duration="1500"
+     data-aos-delay="1800"
+        data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">
         <a href="#Implementasi" class="text-decoration-none">
           <div class="oval-shape">
@@ -202,8 +202,8 @@
       </div>
             <div class="col-md-4 mb-3"
             data-aos="fade-up"
-     data-aos-delay="3500"
-      data-aos-duration="1500"
+     data-aos-delay="2100"
+      data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">
         <a href="#LaporanKeuangan" class="text-decoration-none">
           <div class="oval-shape">
@@ -213,8 +213,8 @@
       </div>
              <div class="col-md-4 mb-3"
              data-aos="fade-left"
-     data-aos-delay="4500"
-      data-aos-duration="1500"
+     data-aos-delay="2400"
+      data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom">
         <a href="#Perpajakan" class="text-decoration-none">
           <div class="oval-shape">
@@ -227,8 +227,8 @@
 
  <div class="row mb-4" >
   <div class="col-md-6 mb-3"  data-aos="fade-up"
-     data-aos-delay="5500"
-      data-aos-duration="1500"
+     data-aos-delay="2700"
+      data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom">
     <a href="#SOP" class="text-decoration-none">
       <div class="oval-shape">
@@ -241,8 +241,8 @@
 
   <div class="col-md-6 mb-3"
    data-aos="fade-down"
-     data-aos-delay="6500"
-      data-aos-duration="1500"
+     data-aos-delay="3000"
+      data-aos-duration="500"
      data-aos-anchor-placement="top-bottom">
     <a href="#SoftwareCustom" class="text-decoration-none">
       <div class="oval-shape">
