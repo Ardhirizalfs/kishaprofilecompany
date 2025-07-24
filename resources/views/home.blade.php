@@ -138,6 +138,16 @@
 
 </style>
 <style>
+  @media (max-width: 768px) {
+  ol.fs-5 {
+    font-size: 1rem !important;
+  }
+  div.fs-5
+  {
+    font-size: 1rem !important;
+  }
+}
+
 
   @media (max-width: 768px) {
   .text-brown h4 {
