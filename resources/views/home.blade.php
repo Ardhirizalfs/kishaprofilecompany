@@ -174,7 +174,7 @@
   
 
 <div class="container-fluid">
-  <div class="row" style="min-height: 85vh;">
+  <div class="row" style="min-height: 85vh;   padding-top: 140px;">
     
     <!-- Bagian Kiri (Konten) -->
     <div class="col-md-1 d-flex align-items-center justify-content-center" >
