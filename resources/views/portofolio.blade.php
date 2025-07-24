@@ -132,7 +132,7 @@
 </section>
 
 <section id="portofolio-mobile" class="d-block d-md-none">
-  <div class="row" style="padding-top: 100px;">
+  <div class="row" style="padding-top: 140px;">
     <div class="col-12 mb-3" data-aos="fade-up" data-aos-duration="1000">
       <div class="custom-font text-brown2">
         <h4 class="fw-bold">Portofolio :</h4>
