@@ -13,6 +13,23 @@
 
 
    <style>
+
+    @media (max-width: 768px) {
+  .text-brown3 h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .text-brown3 h5 {
+    font-size: 1rem !important;
+  }
+    div.fs-5
+  {
+    font-size: 1rem !important;
+  }
+     .text-brown3 {
+    color: #8c490e;
+  }
+}
     body {
       background-image: url('{{ asset('images/backgroundfix.jpg') }}');
       background-size: cover;
@@ -169,8 +186,8 @@
 <section id="kontak">
   <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="500">
    
-    <div class="custom-font text-brown">
-    <h5 class=" text-center custom-font text-brown mb-4">Hubungi Kami :</h5>
+    <div class="custom-font text-brown3">
+    <h5 class=" text-center custom-font text-brown3 mb-4">Hubungi Kami :</h5>
 
     <div class="row justify-content-center">
       <div class="col-md-6 text-center fs-5">

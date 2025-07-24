@@ -13,6 +13,20 @@
 
 
   <style>
+
+    @media (max-width: 768px) {
+  .text-brown3 h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .text-brown3 h5 {
+    font-size: 1rem !important;
+  }
+    div.fs-5
+  {
+    font-size: 1rem !important;
+  }
+}
 @media (max-width: 767.98px) {
   .responsive-padding {
     padding-left: 0 !important;
@@ -55,6 +69,10 @@ img[style*="transform: scale"] {
   }
 
   .text-brown {
+    color: #8c490e;
+  }
+
+    .text-brown3 {
     color: #8c490e;
   }
 
@@ -368,6 +386,49 @@ style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden; positi
       
     </div>
     </div>
+</section>
+
+<section id="kontak">
+  <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="1000">
+   
+    <div class="custom-font text-brown3">
+    <h5 class=" text-center custom-font text-brown3 mb-4">Hubungi Kami :</h5>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center fs-5">
+        <p class="mb-1">
+          <strong>  NADIA NUR RAHMAH</strong>
+        </p>
+        <p class="mb-1">
+          Telepon / WhatsApp : +62 851-2905-3400
+          </p>
+          <p class="mb-1">
+          Telepon / WhatsApp : +62 813-3090-9064
+        </p>
+        <p class="mb-3">
+          Email : kisha.marketing.official@gmail.com
+        </p>
+
+        <div class="d-flex justify-content-center gap-3">
+        
+          <a href="https://www.instagram.com/kishaams.official/" target="_blank">
+          
+            <img src="{{ asset('images/2111463.png') }}" alt="Instagram" width="30">
+          </a>
+          <a href="http://api.whatsapp.com/send/?phone=%2B6285129053400&text&type=phone_number&app_absent=0" target="_blank">
+
+            <img src="{{ asset('images/733585.png') }}" alt="WhatsApp" width="30">
+          </a>
+          <a href="https://www.instagram.com/kishaams.official/" target="_blank">
+      
+            <img src="{{ asset('images/733547.png') }}" alt="Facebook" width="30">
+          </a>
+      
+        </div>
+      </div>
+    </div>
+        </div>
+  </div>
 </section>
 
 <a href="https://wa.me/+6285129053400" target="_blank" class="wa-float">

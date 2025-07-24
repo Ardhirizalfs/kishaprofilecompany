@@ -38,10 +38,27 @@
   margin-left: 550px;
   color:#8c490e;
 }
+
+ @media (max-width: 768px) {
+  .text-brown3 h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .text-brown3 h5 {
+    font-size: 1rem !important;
+  }
+    div.fs-5
+  {
+    font-size: 1rem !important;
+  }
+}
 .text-brown {
     color:#070500 ;
   }
     .text-brown2 {
+    color: #8c490e;
+  }
+    .text-brown3 {
     color: #8c490e;
   }
   .navbar-nav .nav-link {
@@ -89,12 +106,12 @@
 </head>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <body>
-<section id="Company profile">
+<section id="Company profile" style="padding-top: 140px;">
   <div class="container-fluid">
     <div class="row align-items-start g-0  d-flex">
 <div class="row g-0 align-items-start">
   <!-- FOTO PROFIL -->
-  <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center mb-3 mb-md-3 pe-md-4" 
+  <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center mb-3 mb-md-3 pe-md-4 " 
        data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
     <img src="{{ asset('images/Pak OKI.jpg') }}" 
          class="img-fluid rounded shadow" 
@@ -197,8 +214,8 @@
 <section id="kontak">
   <div class="container-fluid px-3" data-aos="fade-up" data-aos-duration="1000">
    
-    <div class="custom-font text-brown2">
-    <h5 class=" text-center custom-font text-brown2 mb-4">Hubungi Kami :</h5>
+    <div class="custom-font text-brown3">
+    <h5 class=" text-center custom-font text-brown3 mb-4">Hubungi Kami :</h5>
 
     <div class="row justify-content-center">
       <div class="col-md-6 text-center fs-5">
