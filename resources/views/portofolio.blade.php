@@ -73,7 +73,7 @@
 
 <body>
   <div class="container">
-<section id="portofolio">
+<section id="portofolio" class="d-none d-md-block">
   <div class="row"  style="padding-top: 140px;">
   <div class="col-md-12 container-fluid text-start mb-3" data-aos="fade-up" data-aos-duration="1000">
    
@@ -130,6 +130,48 @@
 </div>
 
 </section>
+
+<section id="portofolio-mobile" class="d-block d-md-none">
+  <div class="row" style="padding-top: 100px;">
+    <div class="col-12 mb-3" data-aos="fade-up" data-aos-duration="1000">
+      <div class="custom-font text-brown2">
+        <h4 class="fw-bold">Portofolio :</h4>
+      </div>
+    </div>
+
+    <div class="col-12 mb-3">
+      <div class="custom-font text-brown2">
+        <ul class="mb-4 fs-5">
+          <li>Jasa</li>
+          <li>Lelang</li>
+          <li>Retail</li>
+          <li>Dealer</li>
+          <li>Apotik</li>
+          <li>Bengkel</li>
+          <li>Garmen</li>
+          <li>Sekolah</li>
+            <li>Asosiasi</li>
+          <li>Yayasan</li>
+          <li>Koperasi</li>
+          <li>Pelayaran</li>
+          <li>Restaurant</li>
+          <li>Kontraktor</li>
+          <li>Dock Kapal</li>
+          <li>Forwading</li>
+             <li>Manufaktur</li>
+          <li>Developer & Real Estate</li>
+          <li>Outshorching</li>
+          <li>Media Televisi</li>
+          <li>Kursus Musik</li>
+          <li>Budidaya Perikanan</li>
+          <li>Karoseri</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 
 <div style="height: 10vh;"></div>
