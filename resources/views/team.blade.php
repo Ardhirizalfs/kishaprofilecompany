@@ -149,16 +149,21 @@ img[style*="transform: scale"] {
         </div>
 
 </div>
-<div class="col-md-6 responsive-padding  responsive-padding-right " >
-   <div class="gradient-border rounded-circle" style="padding: 4px; display: inline-block;">
-        <img src="{{ asset('images/team/aldi.jpeg') }}"
-        loading="lazy"
-             class="img-fluid rounded-circle"
-             style="width: 220px; height: 220px; object-fit: cover;" 
-             alt="Hans Taufan">
-             </div>
+
+
+      <div class="col-md-6 responsive-padding  responsive-padding-right " >
+       <div style="padding-left: 0px;">
+           <div class="gradient-border rounded-circle" style="padding: 4px; display: inline-block;">
+     <div class="mx-auto"
+     style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden;">
+  <img src="{{ asset('images/team/aldi.jpg') }}"
+  loading="lazy"
+       style="width: 100%; height: 100%; object-fit: cover; transform: scale(1.5); margin-left:10px;"
+       alt="Nadia">
+</div>
+</div>
         <div class="card-body mt-3 text-center">
-          <h5 class="card-title custom-font text-brown">Aldi Maulana Dwi Putra</h5>
+          <h5 class="card-title custom-font text-brown ">Aldi Maulana Dwi Putra</h5>
           <p class="card-text text-muted custom-font text-brown">Manajer Partner</p>
           <div>
             <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
@@ -166,7 +171,9 @@ img[style*="transform: scale"] {
             <a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
-      </div>
+</div>
+     </div>
+     
       </div>
 
 

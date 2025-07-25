@@ -20,6 +20,10 @@ Route::get('/kontak', function () {
     return view('kontak');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
 
 
 // Tambahkan ini:
