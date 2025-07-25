@@ -246,7 +246,7 @@
       </div>
              <div class="col-md-4 mb-3"
              data-aos="fade-left"
-     data-aos-delay="2400"
+     data-aos-delay="1000"
       data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom">
         <a href="#Perpajakan" class="text-decoration-none">
@@ -260,7 +260,7 @@
 
  <div class="row mb-4" >
   <div class="col-md-6 mb-3"  data-aos="fade-up"
-     data-aos-delay="2700"
+     data-aos-delay="1000"
       data-aos-duration="1000"
      data-aos-anchor-placement="top-bottom">
     <a href="#SOP" class="text-decoration-none">
@@ -274,7 +274,7 @@
 
   <div class="col-md-6 mb-3"
    data-aos="fade-down"
-     data-aos-delay="3000"
+     data-aos-delay="1000"
       data-aos-duration="1500"
      data-aos-anchor-placement="top-bottom">
     <a href="#SoftwareCustom" class="text-decoration-none">
@@ -302,7 +302,7 @@
     </div>
 
     <div class="custom-font col-md-8 text-brown2" > 
-      <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+      <div data-aos="fade-up" data-aos-duration="1000">
       <h4 class="fw-bold" >Accompany Your Success</h4>
       <h5 >Bermodal dari kecintaan terhadap akuntansi serta pengalaman terjun langsung menyelesaikan masalah, case demi case, menciptakan benih solusi lalu memupuk nilai tambah didukung daya kreasi, menjadikan bekal kuat, meyakinkan pelaku usaha, membagi sekaligus mengembangkan karya sehingga menerbitkan visi sebagai berikut :
 </h5>
